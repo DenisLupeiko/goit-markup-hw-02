@@ -27,6 +27,18 @@
 /* цвет фона #F5F5F5*/
 /* акцент #2196F3*/
 
+.main-header {
+    background-color: #FFFFFF;
+}
+
+.work {
+    background-color: #FFFFFF;
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
 body {
 font-family: 'Roboto', sans-serif;
 color: var(--primary-text-color);
@@ -34,6 +46,7 @@ font-size: 14px;
 }
 
 .logo {
+    font-family: 'Raleway';
     font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
@@ -62,14 +75,20 @@ font-size: 14px;
         color:var(--secondary-text-color);
 }
 
+
+
+
 .menu .current {
         color: var(--accent-color);
+        
     }
 
 .menu-link:hover,
 .menu-link:focus {
 color: var(--accent-color);
 }
+
+
 
 .menu-link {
     color: var(--secondary-text-color);
@@ -221,17 +240,33 @@ color: var(--accent-color);
     color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-contact {
+    font-style: normal;
+}
+
+.projects {
+    background-color: #F5F5F5;
+}
+
+
+
+
 .button {
+   font-family: inherit;
     font-weight: 500;
-        font-size: 16px;
-        line-height: 1.63;
-        /* identical to box height, or 162% */
-    
-        text-align: center;
-        letter-spacing: 0.03em;
+    font-size: 16px;
+    line-height: 1.63;
+    /* identical to box height, or 162% */
+    text-align: center;
+    letter-spacing: 0.03em;
     cursor: pointer;
     color: var(--secondary-text-color);
     background-color: #F5F4FA;
+}
+
+.filter .current {
+    color: #FFFFFF;
+    background-color: var(--accent-color);
 }
 
 .button:hover,
